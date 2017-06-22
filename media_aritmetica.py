@@ -1,0 +1,10 @@
+'''3) Faça um programa que leia 5 números e informe a soma e a média dos números.'''
+num_1=int(input("Informe o primeiro número: "))
+num_2=int(input("Informe o segundo número: "))
+num_3=int(input("Informe o terceiro número: "))
+num_4=int(input("Informe o quarto número: "))
+num_5=int(input("Informe o quinto número: "))
+x=(num_1+num_2+num_3+num_4+num_5)
+print("A soma dos números é: %d"%(x))
+n=((num_1+num_2+num_3+num_4+num_5)/5)
+print("A média aritmética é: %d"%(n))
